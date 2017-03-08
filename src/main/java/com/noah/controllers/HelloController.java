@@ -13,4 +13,8 @@ public class HelloController {
     public String index(){
         return "welcome";
     }
+    @RequestMapping("/login")
+    public String login(){
+        return "login";
+    }
 }
